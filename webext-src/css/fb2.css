@@ -23,11 +23,11 @@ annotation > *:first-child {margin-top:0}
 section, title, subtitle, p, cite, epigraph, poem, stanza, v, empty-line {display: block; }
 
 /* paragraphs */
-p { text-align: justify; }
+p { text-align: justify; text-indent: 3ex;}
 /* browser-style, default */
-p { margin: 1em 0; text-indent: 0; }
+p { margin: 0; text-indent: 3ex; }
 
-empty-line {margin: 1em 0;}
+empty-line {margin: 2em 0;}
 
 body > title {font-size: x-large; }
 title {font-size: large;}
